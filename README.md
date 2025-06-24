@@ -1,10 +1,10 @@
-# 🚀 Terraform AWS Multi-Environment Setup
+# Terraform AWS Multi-Environment Setup
 
 This project uses **Terraform** to provision AWS infrastructure in a modular way for multiple environments like `dev` and `prod`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
     Terraform-modules/
     ├── envs/
@@ -22,13 +22,13 @@ Each environment has its own:
 
 ## 🛠 How to Apply for Each Environment
 
-### ▶️ Apply `dev` Environment
+### Apply `dev` Environment
 
     cd envs/dev
     terraform init
     terraform apply -var-file=terraform.tfvars -auto-approve
 
-### ▶️ Apply `prod` Environment
+### Apply `prod` Environment
 
     cd envs/prod
     terraform init
@@ -36,7 +36,7 @@ Each environment has its own:
 
 ---
 
-## 🔐 AWS Credentials
+##  AWS Credentials
 
 Make sure AWS credentials are available using one of:
 
@@ -49,6 +49,6 @@ Make sure AWS credentials are available using one of:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 By [Vaibhav Bachate](https://github.com/Vaibhav-Bachate)
