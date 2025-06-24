@@ -1,14 +1,14 @@
-# Terraform directories and files to exclude
+# Terraform cache and state
 .terraform/
 *.tfstate
 *.tfstate.backup
-terraform.tfstate
-terraform.tfstate.backup
-crash.log
-*.tfvars
-*.tfvars.json
 .terraform.lock.hcl
 
-# System-specific
-.DS_Store
+# IDE files
 *.log
+*.swp
+*.bak
+.DS_Store
+
+# Sensitive variable files (optional)
+*.tfvars
