@@ -1,0 +1,14 @@
+# Terraform directories and files to exclude
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# System-specific
+.DS_Store
+*.log
