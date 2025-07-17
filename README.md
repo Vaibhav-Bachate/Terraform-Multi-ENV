@@ -20,7 +20,7 @@ Each environment has its own:
 
 ---
 
-## 🛠 How to Apply for Each Environment
+## How to Apply for Each Environment
 
 ### Apply `dev` Environment
 
